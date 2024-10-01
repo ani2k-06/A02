@@ -3,28 +3,35 @@ Part 1: Directions on Using WebStorm
 
 Step 1:
 Download WebStorm from the official JetBrains website: https://www.jetbrains.com/webstorm/download/
-Follow the installation instructions for your operating system (Windows, macOS, or Linux).
+Select either option according to your operation system
+Press download, then open the application once it has finished downloading. Go through the steps in the installation popup. 
 
 Step 2: Create a New Project
-Open WebStorm.
-Click on New Project.
-Select a template or an empty project.
+Open WebStorm application. 
+Go to File > New > Project from the main menu
+Specify the location of the project 
+Press Create
 
 Step 3: Set Up Git Integration in WebStorm
-Go to File > Settings (or Preferences on macOS).
-Navigate to Version Control > Git and make sure the Git path is configured.
-If Git is not installed, download it from https://git-scm.com/ and install it.
+Install Git from https://git-scm.com/ 
+Press the download option, then select either option according to your operating system
+Open the project that you want to put under Git.
+Press ⌃ CtrlV to open the VCS Operations Popup and select Enable Version Control Integration.
+Choose Git as the version control system and click OK.
+Select always add
 
 Step 4: Initialize a Git Repository
-Right-click the project folder in WebStorm.
-Select Git > Initialize Repository.
-This will initialize a local Git repository in your project.
+
+Open the directory that you want to put under Git. 
+In the main menu, go to VCS | Create Git Repository.
+In the open dialog, specify the directory where a new Git repository will be created.
 
 Step 5: Create a New Repository on GitHub
-Go to https://github.com/ and log into your account.
-Click on New Repository.
-Name your repository  and ensure it’s public.
-Check Add a README file and click Create Repository.
+Select in the upper-right corner of any page, then click New Repository.
+Type a name for your repository. ...
+Choose a repository visibility public/private
+Select Initialize this repository with a README.
+Click Create repository.
 
 Step 6: Connect WebStorm Project to GitHub
 In WebStorm, go to VCS > Git > Push to connect your local repository to your GitHub repository.
@@ -35,14 +42,6 @@ Make changes to your project
 Go to VCS > Git > Commit to stage your changes.
 Write a clear commit message like Task: Create Repository.
 Click Commit and then go to Push to push the changes to GitHub.
-
-Step 8: Fetch and Pull Changes from GitHub
-To fetch updates from GitHub, go to VCS > Git > Fetch.
-To pull new changes, go to VCS > Git > Pull.
-
-Step 9: Branching and Merging
-To create a new branch, go to VCS > Git > Branches > New Branch.
-To merge branches, go to VCS > Git > Merge and select the branch you want to merge.
 
 Part 2: Glossary of Terms
 **Branch**: A branch is a separate line of development in Git, allowing you to work on different project versions simultaneously.
@@ -73,4 +72,6 @@ Part 2: Glossary of Terms
 https://www.jetbrains.com/help/webstorm/getting-started-with-webstorm.html
 https://git-scm.com/
 https://github.com/
+https://www.jetbrains.com/help/webstorm/set-up-a-git-repository.html#put-existing-project-under-Git
+https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories
 
